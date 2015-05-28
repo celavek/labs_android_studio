@@ -19,6 +19,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test4_DoubleRotateActivityTwoTest.txt" afterPath="$PROJECT_DIR$/Test4_DoubleRotateActivityTwoTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test5_CloseActivityTwoTest.txt" afterPath="$PROJECT_DIR$/Test5_CloseActivityTwoTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test6_ReopenActivityTwoTest.txt" afterPath="$PROJECT_DIR$/Test6_ReopenActivityTwoTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab2_ActivityLab/Lab2_ActivityLab-Lab2_ActivityLab.iml" afterPath="$PROJECT_DIR$/Lab2_ActivityLab/Lab2_ActivityLab-Lab2_ActivityLab.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Permissions/Lab3b_DangerousApp/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../Permissions/Lab3b_DangerousApp/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Permissions/Lab3b_DangerousApp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Permissions/Lab3b_DangerousApp/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -1490,7 +1491,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1569,16 +1573,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="activitylab" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_ActivityLab" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab2_ActivityLab-Lab2_ActivityLab" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
