@@ -45,20 +45,16 @@ public class ActivityTwo extends Activity {
 
 			@Override
 			public void onClick(View v) {
-
-				// TODO:
-				// This function closes Activity Two
-				// Hint: use Context's finish() method
                 ((Activity)v.getContext()).finish();
 			}
 		});
 
 		// Has previous state been saved?
 		if (savedInstanceState != null) {
-
-			// TODO:
-			// Restore value of counters from saved state
-			// Only need 4 lines of code, one for every count variable
+            mCreate = savedInstanceState.getInt(CREATE_KEY, 0);
+            mStart = savedInstanceState.getInt(START_KEY, 0);
+            mResume = savedInstanceState.getInt(RESUME_KEY, 0);
+            mRestart = savedInstanceState.getInt(RESTART_KEY, 0);
 		}
 
 		// Emit LogCat message
@@ -135,10 +131,12 @@ public class ActivityTwo extends Activity {
 
 	@Override
 	public void onSaveInstanceState(Bundle savedInstanceState) {
+        savedInstanceState.putInt(CREATE_KEY, mCreate);
+        savedInstanceState.putInt(START_KEY, mStart);
+        savedInstanceState.putInt(RESTART_KEY, mRestart);
+        savedInstanceState.putInt(RESUME_KEY, mResume);
 
-		// TODO:
-		// Save counter state information with a collection of key-value pairs
-		// 4 lines of code, one for every count variable
+        super.onSaveInstanceState(savedInstanceState);
 	}
 
 	// Updates the displayed counters
